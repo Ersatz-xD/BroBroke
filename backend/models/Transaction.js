@@ -1,8 +1,13 @@
 const mongoose = require('mongoose');
 
 const transactionSchema = new mongoose.Schema({
-  lender: { type: String, required: true }, 
-  borrower: { type: String, required: true }, 
+  user: { 
+    type: mongoose.Schema.Types.ObjectId, 
+    ref: 'User', 
+    required: true 
+  }, 
+  friendName: { type: String, required: true }, 
+  type: { type: String, enum: ['gave', 'took'], required: true }, 
   amount: { type: Number, required: true },
   purpose: { type: String, default: 'Miscellaneous' },
   status: { type: String, enum: ['pending', 'resolved'], default: 'pending' },
