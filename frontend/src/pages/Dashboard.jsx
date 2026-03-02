@@ -18,7 +18,7 @@ const Dashboard = () => {
   }
   try {
     const config = { headers: { Authorization: `Bearer ${token}` } };
-    const { data } = await axios.get('http://localhost:5000/api/transactions', config);
+    const { data } = await axios.get(`${import.meta.env.VITE_API_URL}/transactions`, config);
     setTransactions(data);
     setLoading(false);
   } catch (error) {
@@ -33,7 +33,7 @@ const handleResolve = async (transactionId) => {
       const token = localStorage.getItem('token');
       const config = { headers: { Authorization: `Bearer ${token}` } };
       
-      await axios.put(`http://localhost:5000/api/transactions/${transactionId}`, {}, config);
+      await axios.put(`${import.meta.env.VITE_API_URL}/transactions/${transactionId}`, {}, config);
       
       fetchTransactions();
     } catch (error) {
