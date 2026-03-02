@@ -18,7 +18,7 @@ const AddTransaction = ({ onAddSuccess }) => {
     try {
       const config = { headers: { Authorization: `Bearer ${token}` } };
       await axios.post(
-        'http://localhost:5000/api/transactions',
+        `${import.meta.env.VITE_API_URL}/transactions`,
         { friendName, type, amount: Number(amount), purpose },
         config
       );
