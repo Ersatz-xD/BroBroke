@@ -127,7 +127,7 @@ const handleResolve = async (transactionId) => {
                   <div key={t._id} className="bounty-item d-flex justify-content-between">
                     <div>
                       <span className="fw-bold text-white">{t.friendName}</span>
-                      <small className="d-block text-muted">{t.purpose}</small>
+                      <small className="d-block text-muted text-grey">{t.purpose}</small>
                     </div>
                     <span className="text-neon-red">-{t.amount}</span>
                     <button onClick={() => handleResolve(t._id)} className="btn btn-bounty-red py-0 px-2" style={{fontSize: '0.7rem'}}>SETTLE_DEBT</button>
@@ -147,7 +147,7 @@ const handleResolve = async (transactionId) => {
                   <div key={t._id} className="bounty-item d-flex justify-content-between">
                     <div>
                       <span className="fw-bold text-white">{t.friendName}</span>
-                      <small className="d-block text-muted">{t.purpose}</small>
+                      <small className="d-block text-muted text-grey">{t.purpose}</small>
                     </div>
                     <span className="text-neon-green">+{t.amount}</span>
                     <button onClick={() => handleResolve(t._id)} className="btn btn-bounty py-0 px-2" style={{fontSize: '0.7rem'}}>COLLECT_FUNDS</button>

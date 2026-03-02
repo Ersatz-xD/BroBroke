@@ -13,6 +13,9 @@ body {
 .text-white {
   color: #eaf1e8 !important;
 }
+.text-grey {
+  color: #999fa5 !important;
+}
 
 .text-neon-red {
   color: #ff003c !important;
