@@ -6,16 +6,16 @@
 ![BroBroke Theme](https://img.shields.io/badge/UI_Theme-Terminal_Dark-1a1b1e?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active_&_Deployed-00ff41?style=for-the-badge)
 
-🚀 **Check it out here:** [BroBroke Live Demo](https://bro-broke.vercel.app/)
+ **Check it out here:** [BroBroke Live Demo](https://bro-broke.vercel.app/)
 
-## 🚀 Features
+##  Features
 * **Bounty Dashboard:** Automatically calculates overall net balances per friend (red for debts, green for credits).
 * **Secure Authentication:** Full JWT-based login and registration system.
 * **Password Recovery:** Built-in email integration to send secure password reset links.
 * **Real-time Ledger:** Add new outgoing/incoming transactions and instantly resolve them with a single click.
 * **Responsive Terminal UI:** Custom CSS overriding Bootstrap defaults for a sharp, high-contrast, anime-inspired interface.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 **Frontend:**
 * React (Vite)
 * React Router DOM
@@ -28,7 +28,7 @@
 * JSON Web Tokens (JWT) & Bcrypt.js
 * Nodemailer (Gmail integration)
 
-## ⚙️ Local Setup Instructions
+##  Local Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -89,7 +89,7 @@ npm run dev
 
 ```
 
-## 🌐 Deployment
+##  Deployment
 
 * **Frontend:** Hosted on [Vercel](https://vercel.com). Uses a `vercel.json` rewrite configuration for seamless React Router navigation.
 * **Backend:** Hosted on [Render](https://render.com) as a Node.js web service.
