@@ -6,6 +6,8 @@
 ![BroBroke Theme](https://img.shields.io/badge/UI_Theme-Terminal_Dark-1a1b1e?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active_&_Deployed-00ff41?style=for-the-badge)
 
+🚀 **Check it out here:** [BroBroke Live Demo](https://bro-broke.vercel.app/)
+
 ## 🚀 Features
 * **Bounty Dashboard:** Automatically calculates overall net balances per friend (red for debts, green for credits).
 * **Secure Authentication:** Full JWT-based login and registration system.
