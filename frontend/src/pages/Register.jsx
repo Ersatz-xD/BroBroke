@@ -39,7 +39,7 @@ const Register = () => {
           
           <form onSubmit={handleRegister}>
             <div className="mb-3">
-              <label className="form-label text-muted">ALIAS (NAME)</label>
+              <label className="form-label text-muted text-neon-green">ALIAS (NAME)</label>
               <input
                 type="text"
                 className="form-control form-control-bounty"
@@ -50,7 +50,7 @@ const Register = () => {
               />
             </div>
             <div className="mb-3">
-              <label className="form-label text-muted">CONTACT (EMAIL)</label>
+              <label className="form-label text-muted text-neon-green">CONTACT (EMAIL)</label>
               <input
                 type="email"
                 className="form-control form-control-bounty"
@@ -61,7 +61,7 @@ const Register = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="form-label text-muted">SECURE_KEY (PASSWORD)</label>
+              <label className="form-label text-muted text-neon-green">SECURE_KEY (PASSWORD)</label>
               <input
                 type="password"
                 className="form-control form-control-bounty"
@@ -77,7 +77,7 @@ const Register = () => {
           </form>
           
           <div className="text-center mt-4">
-            <span className="text-muted">Already registered? </span>
+            <span className="text-muted text-neon-green">Already registered? </span>
             <Link to="/login" className="text-neon-green text-decoration-none">Login Here</Link>
           </div>
         </div>

@@ -37,7 +37,7 @@ const Login = () => {
           
           <form onSubmit={handleLogin}>
             <div className="mb-3">
-              <label className="form-label text-muted">IDENTIFIER (EMAIL)</label>
+              <label className="form-label text-muted text-neon-green">IDENTIFIER (EMAIL)</label>
               <input
                 type="email"
                 className="form-control form-control-bounty"
@@ -48,7 +48,7 @@ const Login = () => {
               />
             </div>
             <div className="mb-4">
-              <label className="form-label text-muted">ACCESS_CODE (PASSWORD)</label>
+              <label className="form-label text-muted text-neon-green">ACCESS_CODE (PASSWORD)</label>
               <input
                 type="password"
                 className="form-control form-control-bounty"
@@ -59,12 +59,12 @@ const Login = () => {
               />
             </div>
             <button type="submit" className="btn btn-bounty w-100">
-              INITIALIZE
+              LOGIN
             </button>
           </form>
           
           <div className="text-center mt-4">
-            <span className="text-muted">No bounty hunter license? </span>
+            <span className="text-muted text-neon-green">No bounty hunter license? </span>
             <Link to="/register" className="text-neon-green text-decoration-none">Register Here</Link>
           </div>
         </div>
