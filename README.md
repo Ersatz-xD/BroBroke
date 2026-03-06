@@ -32,7 +32,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Ersatz-xD/BroBroke.git](https://github.com/Ersatz-xD/BroBroke.git)
+git clone https://github.com/Ersatz-xD/BroBroke.git
 cd brobroke
 
 ```
