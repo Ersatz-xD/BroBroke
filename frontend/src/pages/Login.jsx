@@ -64,7 +64,7 @@ const Login = () => {
           </form>
           
           <div className="text-center mt-4">
-            <span className="text-muted text-neon-green">No bounty hunter license? </span>
+            <span className="text-muted text-grey">No bounty hunter license? </span>
             <Link to="/register" className="text-neon-green text-decoration-none">Register Here</Link>
           </div>
         </div>

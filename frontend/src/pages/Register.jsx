@@ -77,7 +77,7 @@ const Register = () => {
           </form>
           
           <div className="text-center mt-4">
-            <span className="text-muted text-neon-green">Already registered? </span>
+            <span className="text-muted text-grey">Already registered? </span>
             <Link to="/login" className="text-neon-green text-decoration-none">Login Here</Link>
           </div>
         </div>
